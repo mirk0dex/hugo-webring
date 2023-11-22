@@ -1,5 +1,5 @@
 # hugo-webring
-An easy-to-use hugo module to add a personal webring to your website, generates static html without javascript.
+An easy-to-use hugo module to add a personal webring to your website. It generates static html without javascript.
 
 Inspired by [openring](https://sr.ht/~sircmpwn/openring/).
 
@@ -33,3 +33,7 @@ feeds = [
   "https://100r.co/links/rss.xml"
 ]
 ```
+
+## Updates
+You can get update the plugin later by running:
+`hugo mod get -u`
