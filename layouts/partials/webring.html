@@ -1,6 +1,6 @@
 {{ $channels := slice }}
 {{ $articles := slice }}
-{{ range $url := .Site.Params.webring.feeds }}
+{{ range $url := .feeds }}
   {{ with resources.GetRemote $url }}  
     {{ with .Err }}
       {{ errorf "%s" . }}
@@ -21,7 +21,7 @@
 
 <section class="webring">
   <h2>
-    {{ with .Site.Params.webring.title }}
+    {{ with .title }}
       {{ . }}
     {{ else }}
       More interesting posts
