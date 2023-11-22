@@ -2,7 +2,7 @@ name = "hugo-webring"
 license = "MIT"
 licenselink = "https://github.com/rikvanloenhout/hugo-webring/master/LICENSE.md"
 description = "An easy-to-use hugo module to add a personal webring to your website"
-min_version = 1.0
+min_version = 0.120
 
 [author]
 name = "rkvl"
