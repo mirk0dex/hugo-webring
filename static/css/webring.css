@@ -1,0 +1,33 @@
+.hugo-webring {
+  width: calc(100% - 2rem);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hugo-webring .attribution {
+  float: right;
+  font-size: .8rem;
+  color: #555;
+  line-height: 3;
+}
+
+.hugo-webring .title {
+  margin: 0;
+}
+
+.hugo-webring .articles {
+  display: flex;
+  gap: 1rem;
+}
+
+.hugo-webring .article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  padding: .5rem;
+}
+
+.hugo-webring .summary {
+  flex: 1;
+}
