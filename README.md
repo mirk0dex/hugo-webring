@@ -13,6 +13,9 @@ Add this to your hugo config file:
 path = 'github.com/rikvanloenhout/hugo-webring'
 ```
 
+### Styling
+You can either include the default stylesheet by adding `<link rel="stylesheet" href="/css/hugo-webring.css" />` to the `layouts/_default/baseof.html` or write your own style.
+
 ## Configuration
 The partial expects the configuration to be passed as an argument:
 ```
