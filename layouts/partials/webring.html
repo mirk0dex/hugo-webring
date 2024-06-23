@@ -50,7 +50,9 @@
             {{ end }}
           </a>
         </small>
+        {{ if $article.pubDate }}
         <small class="date">{{  time.Format "2 Jan 2006" (time.AsTime $article.pubDate) }}</small>
+        {{ end }}
       </div>
     {{ end }}
   </section>
