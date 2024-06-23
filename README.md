@@ -1,7 +1,7 @@
 # hugo-webring
 An easy-to-use hugo module to add a personal webring to your website. It generates static html without javascript.
 
-The original (by [rikvanloenhout](https://github.com/rikvanloenhout) has been been modified to include nil-checks, the lack of which was causing errors on my end. 
+The original (by [rikvanloenhout](https://github.com/rikvanloenhout)) has been been modified to include nil-checks, the lack of which was causing errors on my end. 
 
 Inspired by [openring](https://sr.ht/~sircmpwn/openring/).
 
